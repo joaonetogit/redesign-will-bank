@@ -3,8 +3,12 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
   theme: {
     extend: {
+      fontFamily: {
+        inter: ['var(--font-inter)'],
+        poppins: ['var(--font-poppins)'],
+      },
       height: {
-        hero: 'calc(100vh - 4rem)',
+        hero: 'calc(100vh - 100px)',
       },
       maxWidth: {
         grid: 'calc(1280px - 32px)',

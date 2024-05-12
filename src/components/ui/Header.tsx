@@ -11,7 +11,7 @@ export default function Header() {
           <div>
             <Image
               priority
-              src="/assets/logo-company.svg"
+              src="/images/logo-company.svg"
               alt="Logo Will Bank"
               width={104}
               height={45}

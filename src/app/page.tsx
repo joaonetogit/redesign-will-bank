@@ -1,11 +1,12 @@
 import SectionFeatures from '@/layouts/home/sectionFeatures';
-import SectionHero from '@/layouts/home/sectionHero';
+import SectionPosts from '@/layouts/home/sectionPosts';
 
 export default function Home() {
   return (
     <>
-      <SectionHero />
+      {/* <SectionHero /> */}
       <SectionFeatures />
+      <SectionPosts />
     </>
   );
 }
