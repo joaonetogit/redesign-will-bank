@@ -5,7 +5,7 @@ import Container from './Container';
 
 export default function Header() {
   return (
-    <header className="border-gray200 border-b py-6">
+    <header className="border-b border-gray200 py-6">
       <Container>
         <div className="flex items-center justify-between">
           <div>

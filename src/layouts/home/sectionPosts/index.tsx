@@ -6,7 +6,7 @@ import PostsList from './PostsList';
 
 export default function SectionPosts() {
   return (
-    <section>
+    <section className="py-28">
       <Container>
         <div className="space-y-[72px]">
           <div className="flex w-full items-center justify-between">

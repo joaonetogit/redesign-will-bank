@@ -4,7 +4,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ['airbnb', 'plugin:prettier/recommended', 'prettier'],
+  extends: ['airbnb', 'airbnb/hooks', 'plugin:prettier/recommended'],
   overrides: [
     {
       env: {
@@ -16,7 +16,7 @@ module.exports = {
       },
     },
   ],
-  plugins: ['react', 'react-hooks', 'prettier'],
+  plugins: ['prettier'],
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
@@ -25,7 +25,5 @@ module.exports = {
     'prettier/prettier': 'error',
     'react/prop-types': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react-hooks/rules-of-hooks': 'error',
-    'react-hooks/exhaustive-deps': 'warn',
   },
 };

@@ -1,9 +1,9 @@
-import CardPost from '@/components/CardPost';
 import { Posts } from '@/constants/posts';
+import CardPost from '@/layouts/home/sectionPosts/CardPost';
 
 export default function PostsList() {
   return (
-    <div className='flex items-center justify-center gap-8'>
+    <div className="flex items-center justify-center gap-8">
       {Posts.map((post, index) => (
         <CardPost
           key={index}

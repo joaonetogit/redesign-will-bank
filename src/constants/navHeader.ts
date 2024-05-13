@@ -1,4 +1,4 @@
-import { InavHeader } from "@/types/constants/navHeader";
+import { InavHeader } from '@/types/constants/navHeader';
 
 export const navHeader: InavHeader[] = [
   {

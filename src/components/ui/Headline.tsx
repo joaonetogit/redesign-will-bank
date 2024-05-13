@@ -15,7 +15,7 @@ export default function Headline({
 
   return (
     <div className={containerClasses}>
-      <h2 className="font-poppins mb-4 text-[40px]/[48px] font-semibold text-gray900">
+      <h2 className="mb-4 font-poppins text-[40px]/[48px] font-semibold text-gray900">
         {title}
       </h2>
       <p className="font-inter text-base text-gray700">{textSupport}</p>

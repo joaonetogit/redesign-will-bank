@@ -1,4 +1,4 @@
-import { ICardPostProps } from '@/types/components/CardPost';
+import { ICardPostProps } from '@/types/layouts/CardPost';
 
 export const Posts: ICardPostProps[] = [
   {

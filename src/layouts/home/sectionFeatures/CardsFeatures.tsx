@@ -7,7 +7,7 @@ export default function CardsFeatures() {
       {cards.map((content, key) => (
         <div
           key={key}
-          className="font-inter flex flex-1 flex-col items-center space-y-2"
+          className="flex flex-1 flex-col items-center space-y-2 font-inter"
         >
           <Image
             src={content.image}
@@ -16,8 +16,8 @@ export default function CardsFeatures() {
             height={57}
             quality={90}
           />
-          <h3 className="text-gray900 text-lg font-bold">{content.title}</h3>
-          <p className="text-gray700 text-center text-base">
+          <h3 className="text-lg font-bold text-gray900">{content.title}</h3>
+          <p className="text-center text-base text-gray700">
             {content.description}
           </p>
         </div>

@@ -6,7 +6,7 @@ export default function NavList() {
       {navHeader.map((item, index) => (
         <a
           href={item.link}
-          className="font-inter text-gray800 text-base"
+          className="font-inter text-base text-gray800"
           key={index}
         >
           {item.label}
